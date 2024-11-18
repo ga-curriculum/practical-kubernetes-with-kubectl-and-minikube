@@ -9,23 +9,51 @@ setup = new Template.Microlesson {
   videoUrl = ""
 }
 
-concepts = new Template.Microlesson {
-  friendlyName = "Concepts"
-  dirName = "concepts"
+gettingStartedWithKubectl = new Template.Microlesson {
+  friendlyName = "Getting started with kubectl"
+  dirName = "getting-started-with-kubectl"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+introToMinikubeAndKubectl = new Template.Microlesson {
+  friendlyName = "Introduction to Minikube and kubectl"
+  dirName = "intro-to-minikube-and-kubectl"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+startingAndExploringMinikubeCluster = new Template.Microlesson {
+  friendlyName = "Starting and Exploring a Minikube Cluster"
+  dirName = "starting-and-exploring-a-minikube-cluster"
+  type = "Content"
+  videoUrl = ""
+}
+
+exploringAndMonitoringKubernetesPods = new Template.Microlesson {
+  friendlyName = "Exploring and Monitoring Kubernetes Pods"
+  dirName = "exploring-and-monitoring-kubernetes-pods"
+  type = "Content"
+  videoUrl = ""
+}
+
+deployingApplicationsToMinikube = new Template.Microlesson {
+  friendlyName = "Deploying Applications to Minikube"
+  dirName = "deploying-applications-to-minikube"
+  type = "Content"
+  videoUrl = ""
+}
+
+exposingAndScalingApplications = new Template.Microlesson {
+  friendlyName = "Exposing and Scaling Applications"
+  dirName = "exposing-and-scaling-applications"
+  type = "Content"
+  videoUrl = ""
+}
+
+debuggingAndAdvancedOperations = new Template.Microlesson {
+  friendlyName = "Debugging and Advanced Operations"
+  dirName = "debugging-and-advanced-opperations"
   type = "Content"
   videoUrl = ""
 }

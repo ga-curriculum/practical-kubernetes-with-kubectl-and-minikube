@@ -1,21 +1,25 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Practical Kubernetes with kubectl and Minikube</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+This module introduces learners to the fundamentals of working with Kubernetes using Minikube. It begins with setting up the development environment and progresses to executing basic `kubectl` commands for interacting with clusters. Learners will explore and monitor Kubernetes pods, deploy and manage applications, and use services to expose and scale workloads. The module also covers debugging techniques, including inspecting logs, simulating failures, and leveraging Kubernetes' auto-healing capabilities. By the end of the module, learners will have a strong foundation for managing Kubernetes clusters and applications effectively.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                                                             | Est. Delivery Time | Skills                                                                |
+| -------------------------------------------------------------------------------------------------- | :----------------: | --------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                                                         |       5 min        | Set up the development environment.                                   |
+| [Getting started with kubectl](./getting-started-with-kubectl/README.md)                           |       10 min       | Use basic kubectl commands, interact with clusters, view resources.   |
+| [Introduction to Minikube and kubectl](./intro-to-minikube-and-kubectl/README.md)                  |       5 min        | Understand Minikube, use Minikube's kubectl, manage `kubectl` config. |
+| [Starting and Exploring a Minikube Cluster](./starting-and-exploring-a-minikube-cluster/README.md) |       15 min       | Start and explore Minikube, check cluster health, monitor pod status. |
+| [Exploring and Monitoring Kubernetes Pods](./exploring-and-monitoring-kubernetes-pods/README.md)   |       10 min       | Monitor pod status and logs, understand pod lifecycle.                |
+| [Deploying Applications to Minikube](./deploying-applications-to-minikube/README.md)               |       15 min       | Deploy apps, manage deployments, understand replicas.                 |
+| [Exposing and Scaling Applications](./exposing-and-scaling-applications/README.md)                 |       15 min       | Expose services, scale apps, understand load balancing.               |
+| [Debugging and Advanced Operations](./debugging-and-advanced-opperations/README.md)                |       15 min       | Debug with `kubectl exec`, inspect logs, use auto-healing.            |
+| **Total content**                                                                                  |       90 min       |                                                                       |
 
 ## References
 
@@ -25,32 +29,15 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
-
-### Starter code
-
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+- Intro to Docker
+- Running Your First Docker Container
+- Container Orchestration
+- Intro to Kubernetes
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/practical-kubernetes-with-kubectl-and-minikube/canvas-landing-pages/mea.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/practical-kubernetes-with-kubectl-and-minikube/canvas-landing-pages/fallback.html)
 
 ### Resources
 

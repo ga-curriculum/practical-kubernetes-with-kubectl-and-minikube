@@ -1,29 +1,26 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Practical Kubernetes with kubectl and Minikube</span>
   <span class="subhead">Setup</span>
 </h1>
 
-## Setup
+## Preparing Your Environment for Kubernetes
 
-tktk The below is a generic starting point for lecture setup. You may need to make adjustments to this.
+By the end of this setup, you will be ready to begin working with Kubernetes using **kubectl** and **Minikube**.
 
-Open your Terminal application and navigate to your <code class="filepath">~/code/ga/lectures</code> directory:
+## For virtual machine users
 
-```bash
-cd ~/code/ga/lectures
-```
+If you are using a GA provided virtual machine, good news! Your environment is already set up, and you can proceed to the main lesson content. No further action is required.
 
-Make a new directory called <code class="filepath">tktk-module-name</code>, then enter this directory:
+## For students installing locally
 
-```bash
-mkdir tktk-module-name
-cd tktk-module-name
-```
+If you are setting up Kubernetes tools on your own machine, follow the steps below to prepare your environment.
 
-Open the contents of the directory in VS Code:
+### 1. Install `kubectl`
 
-```bash
-code .
-```
+kubectl is the command-line tool used to interact with Kubernetes clusters. Install it by following the official [kubectl installation instructions](https://kubernetes.io/docs/tasks/tools/).
 
-tktk Are there more lecture setup steps? Don't forget to add them here.
+### 2. Configure `kubectl` (Optional)
+
+kubectl needs to be configured to communicate with a Kubernetes cluster by setting up different contexts. However, for this lesson, no configuration is needed as everything is pre-configured in the provided materials.
+
+For future reference, you can learn about configuring kubectl by following [these instructions](https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/).
