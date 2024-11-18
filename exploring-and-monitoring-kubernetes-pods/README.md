@@ -42,7 +42,7 @@ Now, let’s set up a **watch terminal** to monitor Kubernetes activity in real 
 watch kubectl get pods
 ```
 
-This will continuously refresh the output of `kubectl get pods` every 2 seconds, allowing you to monitor your cluster as it updates in real time.
+This will continuously refresh the output of `kubectl get pods` every _2 seconds_, allowing you to monitor your cluster as it updates in real time.
 
 We'll refer to this as the **watch terminal** for the remainder of the lesson, and you'll use it to observe the changes in your cluster.
 

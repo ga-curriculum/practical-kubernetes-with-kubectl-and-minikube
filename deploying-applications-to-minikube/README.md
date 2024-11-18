@@ -75,7 +75,7 @@ Name:         hello-node-844445fcf8-8q2ld
 Namespace:    default
 Priority:     0
 Node:         minikube/192.168.49.2
-Start Time:   Tue, 26 Oct 2021 11:24:32 +0100
+Start Time:   Tue, 26 Oct 2024 11:24:32 +0100
 Labels:       app=hello-node
               pod-template-hash=844445fcf8
 Annotations:  <none>
@@ -92,12 +92,12 @@ Containers:
     Port:           <none>
     Host Port:      <none>
     State:          Running
-      Started:      Tue, 26 Oct 2021 11:33:04 +0100
+      Started:      Tue, 26 Oct 2024 11:33:04 +0100
     Last State:     Terminated
       Reason:       Error
       Exit Code:    255
-      Started:      Tue, 26 Oct 2021 11:24:47 +0100
-      Finished:     Tue, 26 Oct 2021 11:32:37 +0100
+      Started:      Tue, 26 Oct 2024 11:24:47 +0100
+      Finished:     Tue, 26 Oct 2024 11:32:37 +0100
     Ready:          True
     Restart Count:  1
     Environment:    <none>
@@ -135,7 +135,7 @@ Events:
   Normal  Started         5m5s   kubelet            Started container my-example
 ```
 
-This output gives you detailed insights into the pod's health, including its containers, IP address, restart count, and any recent events (e.g., image pulling, container starting).
+This output gives you detailed insights into the pod's health, including its containers, IP address, restart count, and any recent events (ex: image pulling, container starting).
 
 ### Troubleshooting
 

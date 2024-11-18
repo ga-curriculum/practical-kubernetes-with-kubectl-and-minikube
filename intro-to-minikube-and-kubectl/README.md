@@ -9,8 +9,6 @@
 
 [Minikube](https://minikube.sigs.k8s.io/docs/start/) is a tool that makes it easy to run Kubernetes clusters locally. It runs a single-node Kubernetes cluster inside a virtual machine on your local machine, allowing you to experiment with Kubernetes without needing a full cloud-based cluster. Minikube is especially useful for development, testing, and learning purposes.
 
-When you install Minikube, it includes its own version of kubectl, which is pre-configured to work seamlessly with the local Minikube cluster. You can also use a standalone kubectl installation to interact with your Minikube cluster, though Minikube's built-in version ensures compatibility.
-
 ## Minikube `kubectl` vs. Standalone `kubectl`
 
 Minikube includes its own version of `kubectl`, which is guaranteed to be compatible with the currently installed version of Minikube. Using Minikube's built-in `kubectl` ensures that your commands will always work with your Minikube cluster.

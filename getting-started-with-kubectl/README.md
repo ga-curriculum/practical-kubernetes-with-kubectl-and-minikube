@@ -3,8 +3,7 @@
   <span class="subhead">Getting Started with kubectl</span>
 </h1>
 
-**Learning Objective:**  
-By the end of this lesson, students will be able to explain what `kubectl` is, describe its purpose, and recognize its basic syntax and common commands.
+**Learning Objective:** By the end of this lesson, students will be able to explain what `kubectl` is, describe its purpose, and recognize its basic syntax and common commands.
 
 ## What is `kubectl`?
 
@@ -21,9 +20,9 @@ The pronunciation of `kubectl` is a hot topic!
 
 But here are three commonly accepted ways to say it:
 
-- _cube-control_ :white_check_mark:
-- _cube-see-tee-ell_ :white_check_mark:
-- _cube-cuttle_ :white_check_mark:
+- _cube-control_ ✅
+- _cube-see-tee-ell_ ✅
+- _cube-cuttle_ ✅
 
 Use any of these, and you’ll be in good company.
 

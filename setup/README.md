@@ -3,7 +3,7 @@
   <span class="subhead">Setup</span>
 </h1>
 
-## Preparing Your Environment for Kubernetes
+## Setup
 
 By the end of this setup, you will be ready to begin working with Kubernetes using **kubectl** and **Minikube**.
 
