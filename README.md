@@ -36,8 +36,8 @@ This module introduces learners to the fundamentals of working with Kubernetes u
 
 ### Course landing pages
 
-- [MEA - Modern Engineering](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/practical-kubernetes-with-kubectl-and-minikube/canvas-landing-pages/mea.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/practical-kubernetes-with-kubectl-and-minikube/canvas-landing-pages/fallback.html)
+- [MEA - Modern Engineering](https://ga-curriculum.github.io/practical-kubernetes-with-kubectl-and-minikube/canvas-landing-pages/mea.html)
+- [Fallback](https://ga-curriculum.github.io/practical-kubernetes-with-kubectl-and-minikube/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -49,4 +49,4 @@ This module introduces learners to the fundamentals of working with Kubernetes u
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
